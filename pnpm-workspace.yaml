@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  - esbuild
+  - playwright-chromium
+
+patchedDependencies:
+  '@shikijs/themes': patches/@shikijs__themes.patch
