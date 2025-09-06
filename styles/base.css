@@ -1,0 +1,43 @@
+:root {
+    --slidev-code-font-size: 13px;
+    --slidev-code-line-height: 21px;
+    /* --prism-font-size: 14px;
+    --prism-line-height: 22px; */
+    --slidev-tab-size: 4;
+    --prism-tab-size: 4;
+}
+.twoslash-hover {
+    padding-bottom: 0px !important;
+    border-bottom: 0px !important;
+}
+
+/* Safe zone for captions; comment out before publishing */
+/* #slideshow::after {
+    content: "";
+    position: fixed;
+    top: 80%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    border-top: 2px dashed red;
+    z-index: 9999;
+} */
+
+img {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.dark img {
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.03);
+}
+
+.col-left {
+    margin-right: 2.5%;
+}
+.col-right {
+    margin-left: 2.5%;
+}
+
+.slidev-note {
+    font-size: 1.5rem !important;
+}
