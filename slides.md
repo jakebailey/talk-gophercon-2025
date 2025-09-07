@@ -22,7 +22,7 @@ addons:
   - fancy-arrow
 background: /img/bg.jpg
 monaco: false
-favicon: https://jakebailey.dev/favicon.ico
+favicon: /favicon.ico
 ---
 
 # Porting the TypeScript Compiler to Go
